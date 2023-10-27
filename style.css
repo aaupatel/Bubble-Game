@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: gilroy;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://media.istockphoto.com/id/491448714/photo/the-rainbow-soap-bubbles-from-the-bubble-blower.jpg?s=1024x1024&w=is&k=20&c=dI_0nt3MAK4qHYh34DsqjzbKPSOUfe4kNwodCskyLxA=);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#panel {
+    width: 80%;
+    height: 90%;
+    border-radius: 10px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+#toppanel {
+    width: 100%;
+    height: 100px;
+    background-color: #337D74;
+    display: flex;
+    color: #fff;
+    padding: 0px 150px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.elem h4{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.box{
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    color: green;
+    font-weight: 600;
+    font-size: 25px;
+
+}
+
+#bottompanel{
+    background-image: url(https://images.unsplash.com/photo-1520370470779-de39507ef7b8?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGJ1YmJsZXMlMjBnaWZ8ZW58MHx8MHx8fDA%3D);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    height: calc(100% - 100px);
+    padding: 20px;
+}
+
+#bottompanel h1{
+    color: red;
+    font-size: 150px;
+}
+
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.bubble:hover{
+    cursor: pointer;
+    background-color: red;
+}
